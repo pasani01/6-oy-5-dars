@@ -1,5 +1,10 @@
 {% extends "base.html" %}
 {% load static %}
+{% block title %}
+    <title>{{people.name}}</title>
+{% endblock title %}
+    
+
 {% block main %}
     <h1>{{ people.name }}</h1>
     <h3>Hakinda</h3>
