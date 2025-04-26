@@ -1,0 +1,21 @@
+.bas{
+    background-color: #2E3A59;
+    height: 100px;
+    align-self: center;
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 10px;
+  }
+.vucut{
+    background-color: #F5F7FA;
+}
+.ayak{
+    background-color: #1F2A40;
+    
+    color: aliceblue;
+}
+
+  body{
+    background-color: rgb(185, 191, 191);
+    text-align: center;
+  }

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+{% load  static  %} 
+  <head>
+    <link rel="stylesheet" href='{% static "css/base.css" %}'>
+  </head>
+  <body>
+    <header>
+      <dir class="bas">
+        <a href='/' style="color: aliceblue; font-size: 50px; text-decoration: none;">Anaa sayfa</a>
+      </dir>
+    </header>
+  <main>
+    <div class="vucut">
+        {% block main %}
+            {% for name in peoples%}
+              <ul>
+                <a href='alimler/{{ forloop.counter0 }}'>{{name}}</a>
+              </ul>
+            {% endfor %}
+        {% endblock main %}
+    </div>
+  </main>
+  <footer>
+    <dir class="ayak">
+      <p>@ Nasrettin Emini Tarafindan Yapildi</p>
+    </dir>
+  </footer>
+  </body>
+</html>
